@@ -1,0 +1,28 @@
+{
+    "members": [
+        {
+            "id": "12345",
+            "cin": "11110496",
+            "name": "yosr",
+            "creationDate": "5/8/2022",
+            "cv": "lien",
+            "type": "etudiante"
+        },
+        {
+            "id": "12345",
+            "cin": "11110496",
+            "name": "yosr",
+            "creationDate": "5/8/2022",
+            "cv": "lien",
+            "type": "etudiante"
+        },
+        {
+            "id": "12345",
+            "cin": "11110496",
+            "name": "yosr",
+            "creationDate": "5/8/2022",
+            "cv": "lien",
+            "type": "etudiante"
+        }
+    ]
+}

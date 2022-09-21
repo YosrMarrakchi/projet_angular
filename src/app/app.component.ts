@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'First';
+  name = 'yosr';
+  agenda = [{date:"17/12", message:"BA"},{date:"18/12", message:"BB"}];
 }
