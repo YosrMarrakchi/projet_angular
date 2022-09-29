@@ -1,7 +1,7 @@
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
-import { MemberFormComponent } from './member-form/member-form.component';
-import { MembersComponent } from './members/members.component';
+import {NgModule} from '@angular/core';
+import {RouterModule, Routes} from '@angular/router';
+import {MemberFormComponent} from './member-form/member-form.component';
+import {MembersComponent} from './members/members.component';
 
 const routes: Routes = [
   {
@@ -20,6 +20,11 @@ const routes: Routes = [
     component: MemberFormComponent
   },
   {
+    path: 'members/:id/edit',
+    pathMatch: 'full',
+    component: MemberFormComponent
+  },
+  {
     path: '**',
     pathMatch: 'full',
     redirectTo: 'members'
@@ -30,4 +35,5 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {
+}
